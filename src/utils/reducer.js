@@ -25,4 +25,28 @@ import { useReducer } from "react";
   }
  }
 
- export {reducer, initialstate};
+ const initialstateName = {name: ''};
+
+ function reducerName (state, action){
+  switch (action.type){
+    case 'add':
+      return {
+        ...state,
+        name: 'Igor',
+      };
+      case 'change':
+        return {
+          ...state,
+          name: state.name + ' Sergey',
+        };
+        case 'reset':
+          return {
+            ...state,
+            name: '',
+          };
+      default:
+        throw new Error();
+  }
+ }
+
+ export {reducer, initialstate, reducerName, initialstateName};

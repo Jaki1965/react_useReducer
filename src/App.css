@@ -15,7 +15,9 @@
 }
 .App-counter {
   background: rgb(77, 76, 76);
-  margin-top: 150px;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px;
   text-align: center;
   font-size: 25px;
   font-weight: 700;
@@ -29,12 +31,12 @@
   max-width: 140px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  /* margin-top: 10px; */
   color: rgb(9, 217, 103);
 }
 
 .App-buttons {
-  margin-top: 80px;
+  margin-top: 20px;
   border: 2px solid yellow;
   border-radius: 10px;
   margin-left: auto;
