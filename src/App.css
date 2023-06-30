@@ -1,26 +1,53 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  color: white;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 30зч;
+  font-size: 30px;
   color: white;
 }
+.App-counter {
+  background: rgb(77, 76, 76);
+  margin-top: 150px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: red;
+}
 
+.App-count {
+  border: 2px solid yellow;
+  border-radius: 7px;
+  padding: 30px;
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  color: rgb(9, 217, 103);
+}
+
+.App-buttons {
+  margin-top: 80px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 130px;
+}
+.App-button {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width:130px
+}
