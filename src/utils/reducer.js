@@ -32,7 +32,7 @@ import { useReducer } from "react";
     case 'add':
       return {
         ...state,
-        name: 'Igor',
+        name: state.name +' Igor',
       };
       case 'change':
         return {

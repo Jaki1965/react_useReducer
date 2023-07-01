@@ -14,11 +14,11 @@ function ChangeName() {
       <div className={styles.change_name}>
         <h2 className={styles.change_name_title}>ИМЯ</h2>
         <div className={styles.change_name_buttons}>
-          <button className='App-button' onClick={()=> dispatch({type: 'add'})}>ДОБАВИТЬ</button>
-          <button className='App-button' onClick={()=> dispatch({type: 'change'})}>ИЗМЕНИТЬ</button>
-          <button className='App-button' onClick={()=> dispatch({type: 'reset'})}>СБРОС</button>
+          <button className={styles.change_name_button} onClick={()=> dispatch({type: 'add'})}>IGOR</button>
+          <button className={styles.change_name_button} onClick={()=> dispatch({type: 'change'})}>SERGEY</button>
+          <button className={styles.change_name_button} onClick={()=> dispatch({type: 'reset'})}>RESET</button>
         </div>
-        <div className='App-count'>
+        <div className={styles.change_name_name}>
             Name: {state.name}
         </div>
       
